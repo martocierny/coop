@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+
+html{
+    color: white;
+}
+
+h6{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.text{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+.iron{
+    padding-left: 100px;
+
+}
+
+.redstone{
+    padding-left: 100px;
+}
+
+.carrot{
+    padding-left: 100px;
+}
+.red{
+    color: red;
+    font-size: xx-large;
+}
+
+.logo{
+    font-size: xx-large;
+}
+
+header .logo {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+    padding-top: 90px;
+}
