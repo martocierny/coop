@@ -8,7 +8,7 @@
 }
 body{
   min-height: 100vh;
-  background-color: black;
+  background-color: rgb(37, 37, 37);
 }
 
 header{
@@ -107,21 +107,21 @@ header{
     position: absolute;
     height: 35%;
     display: flex;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 59%;
     }
 
-    .anoFour{
-      color: white;
-      text-align: center;
-      margin-top: 25%;
-      margin-bottom: 20%;
-      margin-right: 45%;
-      font-size: 190%;
-    }
+  .anoFour{
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+     margin-bottom: 20%;
+     margin-right: 45%;
+     font-size: 190%;
+   }
 
     section h1 {
-      padding-top: 20%;
+      padding-top: 10%;
       text-align: center;
       font-size: 80px;
       background-color: rgb(255, 255, 255);
@@ -134,4 +134,87 @@ header{
 
 html{
   scroll-behavior: smooth;
+}
+
+.about1{
+  color: black;
+  font-size: xx-large;
+  padding-top: 5%;
+}
+
+.button1 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button1 {
+  margin-left: 800px;
+  margin-top: 100px;
+}
+
+.contactsection{
+  margin-bottom: 70px;
+}
+
+.contact1{
+  color: white;
+  text-align: center;
+  padding-top: 140px;
+  font-size: 70px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.contact2 {
+  color: white;
+  font-size: x-large;
+  padding-top: 10%;
+}
+
+.rights{
+  color: white;
+  padding-top: 300px;
+  text-align: center;
+}
+
+.photo2 {
+  height: 400px;
+  padding-left: 50%;
+}
+
+.a222{
+  color: white;
 }
